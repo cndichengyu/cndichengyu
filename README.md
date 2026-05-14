@@ -1,5 +1,7 @@
 # 👋 我是 DI CHENGYU
 
+- 于繁华处看见世界 于孤独中寻找自己
+
 ✉️ 邮箱：`cndichengyu@163.com`
 
 
