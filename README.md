@@ -2,7 +2,7 @@
 
 于繁华处看见世界 于孤独中寻找自己
 
-✉️ 邮箱：`cndichengyu@outlook.com`
+✉️ 邮箱：`cndichengyu@163.com`
 
 
 ## 技术栈
