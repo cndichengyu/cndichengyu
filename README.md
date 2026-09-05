@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.png">
-  <img src="./assets/header-light.png" alt="DI CHENGYU: Code, learn, build." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-handdrawn-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/header-handdrawn-light.png">
+  <img src="./assets/header-handdrawn-light.png" alt="DI CHENGYU: Code, learn, build. 手绘个人主页横幅" width="100%">
 </picture>
 
 <p align="center">
@@ -89,10 +89,6 @@
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=cndichengyu&amp;theme=github" alt="cndichengyu 的公开非 Fork 仓库主语言分布，按仓库数量统计" width="350">
   </picture>
 </a>
-
-<p align="center">
-  <img src="./assets/footer-handdrawn.png" alt="铅笔与淡彩手绘的工作台：电脑、外置硬盘、手机、笔记本和铅笔" width="100%">
-</p>
 
 ---
 
