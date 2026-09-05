@@ -18,8 +18,6 @@
 
 ## 精选项目
 
-从桌面到移动端，从日常工具到学习笔记。仓库信息会自动同步。
-
 <!-- PROJECTS:START -->
 <table>
   <tr>
@@ -95,14 +93,11 @@
   </tr>
 </table>
 
-<p><sub>CONTRIBUTION TIMELINE</sub></p>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=cndichengyu&amp;theme=github_dark">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=cndichengyu&amp;theme=github">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=cndichengyu&amp;theme=github" alt="cndichengyu 的 GitHub 贡献时间线" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-sketch-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/footer-sketch-light.svg">
+  <img src="./assets/footer-sketch-light.svg" alt="手绘风格的代码工作台：笔记本电脑、手机、笔记和铅笔" width="100%">
 </picture>
-
-<!-- The stats are intentionally hosted online so they stay current. -->
 
 ---
 

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="270" viewBox="0 0 960 270">
+  <rect width="960" height="270" rx="12" fill="#f6f1e8"/>
+  <path d="M22 221 C186 215 314 228 478 219 S784 218 938 224" fill="none" stroke="#b8a996" stroke-width="3" stroke-linecap="round"/>
+  <path d="M42 48 C173 39 268 54 391 45 S642 42 914 49" fill="none" stroke="#d8cdbd" stroke-width="2" stroke-linecap="round"/>
+  <g fill="none" stroke="#273a32" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M139 181 L161 81 Q162 75 170 75 L432 75 Q441 75 442 82 L464 181 Z" fill="#e7efe6"/>
+    <path d="M164 93 L426 93 L439 162 L151 162 Z" fill="#cfe1d3"/>
+    <path d="M115 185 Q120 174 138 174 H464 Q480 174 487 185 L501 211 H100 Z" fill="#e7efe6"/>
+    <path d="M218 190 H383"/>
+    <path d="M188 111 L208 111 M188 126 L252 126 M188 141 L231 141" stroke="#5b8569" stroke-width="5"/>
+    <path d="M302 117 Q324 101 348 117 T393 117" stroke="#d17e67" stroke-width="5"/>
+    <path d="M304 136 Q337 119 373 138" stroke="#5b8569" stroke-width="5"/>
+  </g>
+  <g fill="none" stroke="#273a32" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M607 88 Q610 79 620 80 L710 92 Q719 94 717 103 L701 211 Q699 220 689 218 L599 205 Q590 203 592 194 Z" fill="#f5e2a7"/>
+    <path d="M604 112 L705 126 M601 129 L703 143 M598 146 L700 160" stroke="#d5ad56" stroke-width="3"/>
+    <path d="M630 174 Q655 152 683 179" stroke="#d17e67" stroke-width="5"/>
+    <path d="M631 188 L679 194" stroke="#5b8569" stroke-width="5"/>
+  </g>
+  <g fill="none" stroke="#273a32" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M766 184 L810 77 Q813 71 819 74 L840 82 Q846 85 843 91 L797 197 Z" fill="#e6c0ad"/>
+    <path d="M801 98 L832 109" stroke="#d17e67"/>
+    <path d="M770 180 L797 190" stroke="#d5ad56"/>
+  </g>
+  <g fill="#273a32" font-family="Comic Sans MS, cursive" font-size="20">
+    <text x="51" y="102" transform="rotate(-5 51 102)">make</text>
+    <text x="748" y="58" transform="rotate(5 748 58)">small tools</text>
+  </g>
+  <path d="M520 93 q17 -18 34 0 q17 18 34 0" fill="none" stroke="#d17e67" stroke-width="3" stroke-linecap="round"/>
+  <path d="M514 105 q17 -18 34 0 q17 18 34 0" fill="none" stroke="#5b8569" stroke-width="3" stroke-linecap="round"/>
+  <text x="480" y="250" fill="#6d7d72" font-family="Comic Sans MS, cursive" font-size="17">sketches, tests, and useful things</text>
+</svg>
