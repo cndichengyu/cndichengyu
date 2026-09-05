@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 960 300">
+  <rect width="960" height="300" fill="#f0f5f1"/>
+  <g fill="none" stroke="#c6d7ca" stroke-width="1">
+    <path d="M660 0V300M720 0V300M780 0V300M840 0V300M900 0V300M660 60H960M660 120H960M660 180H960M660 240H960"/>
+  </g>
+  <rect x="45" y="39" width="8" height="8" fill="#335f3d"/>
+  <text x="66" y="48" fill="#5a7061" font-family="Menlo,monospace" font-size="13">cndichengyu / personal workspace</text>
+  <text x="42" y="143" fill="#1d3026" font-family="Arial,sans-serif" font-size="68" font-weight="700">DI CHENGYU</text>
+  <text x="46" y="187" fill="#5a7061" font-family="Arial,sans-serif" font-size="25">Code, learn, build.</text>
+  <path d="M46 224H612" stroke="#c6d7ca"/>
+  <text x="46" y="256" fill="#5a7061" font-family="Menlo,monospace" font-size="12">NATIVE APPS</text>
+  <text x="192" y="256" fill="#5a7061" font-family="Menlo,monospace" font-size="12">DATA TOOLS</text>
+  <text x="332" y="256" fill="#5a7061" font-family="Menlo,monospace" font-size="12">OPEN SOURCE</text>
+  <rect x="698" y="48" width="220" height="192" rx="8" fill="#deeadf" stroke="#c6d7ca"/>
+  <path d="M698 82H918" stroke="#c6d7ca"/>
+  <rect x="714" y="61" width="6" height="6" rx="1" fill="#e5a080"/>
+  <rect x="726" y="61" width="6" height="6" rx="1" fill="#d7bf6c"/>
+  <rect x="738" y="61" width="6" height="6" rx="1" fill="#75ae83"/>
+  <text x="897" y="68" text-anchor="end" fill="#5a7061" font-family="Menlo,monospace" font-size="10">hello.swift</text>
+  <g fill="none" stroke="#335f3d" stroke-width="9" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M762 122L738 147L762 172M850 122L874 147L850 172M826 112L792 182"/>
+  </g>
+  <text x="714" y="220" fill="#5a7061" font-family="Menlo,monospace" font-size="11">$ make something useful</text>
+</svg>
