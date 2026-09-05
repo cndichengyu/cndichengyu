@@ -1,4 +1,8 @@
 import { readFile, writeFile } from "node:fs/promises";
+import { pathToFileURL } from "node:url";
+
+const START_MARKER = "<!-- PROJECTS:START -->";
+const END_MARKER = "<!-- PROJECTS:END -->";
 
 const token = process.env.GITHUB_TOKEN;
 const projects = [
@@ -18,16 +22,36 @@ async function getRepo(repo) {
 
 function card(project, repo) {
   const stats = `★ ${repo.stargazers_count} · ⑂ ${repo.forks_count} · 更新于 ${repo.pushed_at.slice(0, 10)}`;
-  return `    <td width="50%" valign="top">\n      <img src="./assets/${project.icon}" width="48" height="48" alt=""><br>\n      <sub>${project.label}</sub>\n      <h3><a href="${repo.html_url}">${repo.name}</a></h3>\n      <p>${project.summary}</p>\n      <p>${project.tags.map(tag => `<code>${tag}</code>`).join(" ")} · ${stats}</p>\n    </td>`;
+  // GitHub strips wbr tags; zero-width spaces retain optional wrapping.
+  const name = repo.name.replace(/([a-z][a-z0-9])([A-Z])/g, "$1&#8203;$2").replace(/-/g, "-&#8203;");
+  return `    <td width="50%" valign="top">\n      <img src="./assets/${project.icon}" width="48" height="48" alt=""><br>\n      <sub>${project.label}</sub>\n      <h3><a href="${repo.html_url}">${name}</a></h3>\n      <p>${project.summary}</p>\n      <p>${project.tags.map(tag => `<code>${tag}</code>`).join(" ")}<br><sub>${stats}</sub></p>\n    </td>`;
 }
 
-const repos = await Promise.all(projects.map(project => getRepo(project.repo)));
-const rows = [];
-for (let index = 0; index < projects.length; index += 2) {
-  rows.push(`  <tr>\n${card(projects[index], repos[index])}\n${card(projects[index + 1], repos[index + 1])}\n  </tr>`);
+export function replaceProjectSection(readme, content) {
+  if (readme.split(START_MARKER).length !== 2 || readme.split(END_MARKER).length !== 2) {
+    throw new Error("README must contain exactly one project start marker and one project end marker");
+  }
+  const start = readme.indexOf(START_MARKER);
+  const end = readme.indexOf(END_MARKER);
+  if (end < start) throw new Error("README project end marker must follow the start marker");
+  return `${readme.slice(0, start)}${START_MARKER}\n${content}\n${END_MARKER}${readme.slice(end + END_MARKER.length)}`;
 }
-const generated = `<!-- PROJECTS:START -->\n<table>\n${rows.join("\n")}\n</table>\n<!-- PROJECTS:END -->\n`;
-const readme = await readFile("README.md", "utf8");
-const updated = readme.replace(/<!-- PROJECTS:START -->[\s\S]*?<!-- PROJECTS:END -->/, generated);
-if (updated === readme) throw new Error("README project markers not found");
-await writeFile("README.md", updated);
+
+export async function updateProfileProjects({ readmePath = "README.md", fetchRepository = getRepo } = {}) {
+  const readme = await readFile(readmePath, "utf8");
+  replaceProjectSection(readme, "");
+  const repos = await Promise.all(projects.map(project => fetchRepository(project.repo)));
+  const rows = [];
+  for (let index = 0; index < projects.length; index += 2) {
+    rows.push(`  <tr>\n${card(projects[index], repos[index])}\n${card(projects[index + 1], repos[index + 1])}\n  </tr>`);
+  }
+  const generated = `<table>\n${rows.join("\n")}\n</table>`;
+  const updated = replaceProjectSection(readme, generated);
+  if (updated === readme) return false;
+  await writeFile(readmePath, updated);
+  return true;
+}
+
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  await updateProfileProjects();
+}

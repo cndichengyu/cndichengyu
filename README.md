@@ -5,10 +5,10 @@
 </picture>
 
 <p align="center">
-  <a href="#精选项目">精选项目</a> &nbsp; / &nbsp;
+  <a href="#精选项目">项目</a> &nbsp; / &nbsp;
   <a href="#技术栈">技术栈</a> &nbsp; / &nbsp;
   <a href="#github-动态">GitHub 动态</a> &nbsp; / &nbsp;
-  <a href="mailto:cndichengyu@163.com">联系我</a>
+  <a href="mailto:cndichengyu@163.com">邮箱</a>
 </p>
 
 <p align="center">
@@ -24,37 +24,36 @@
     <td width="50%" valign="top">
       <img src="./assets/diskthings.png" width="48" height="48" alt=""><br>
       <sub>DESKTOP TOOL</sub>
-      <h3><a href="https://github.com/cndichengyu/DiskThings">DiskThings</a></h3>
+      <h3><a href="https://github.com/cndichengyu/DiskThings">Disk&#8203;Things</a></h3>
       <p>macOS 原生外置硬盘管理工具，集中查看设备与健康信息。</p>
-      <p><code>Swift</code> <code>SwiftUI</code> <code>macOS</code> · ★ 1 · ⑂ 0 · 更新于 2026-07-30</p>
+      <p><code>Swift</code> <code>SwiftUI</code> <code>macOS</code><br><sub>★ 1 · ⑂ 0 · 更新于 2026-07-30</sub></p>
     </td>
     <td width="50%" valign="top">
       <img src="./assets/netsessiontester.png" width="48" height="48" alt=""><br>
       <sub>MOBILE TOOL</sub>
-      <h3><a href="https://github.com/cndichengyu/NetSessionTester-iOS">NetSessionTester-iOS</a></h3>
+      <h3><a href="https://github.com/cndichengyu/NetSessionTester-iOS">Net&#8203;Session&#8203;Tester-&#8203;iOS</a></h3>
       <p>网络诊断工具的 iOS 原生移植，覆盖 TCP、Ping、DNS、NAT 与路由探测。</p>
-      <p><code>Swift</code> <code>SwiftUI</code> <code>iOS</code> · ★ 0 · ⑂ 0 · 更新于 2026-08-09</p>
+      <p><code>Swift</code> <code>SwiftUI</code> <code>iOS</code><br><sub>★ 0 · ⑂ 0 · 更新于 2026-08-09</sub></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <img src="./assets/aria2-turbo.png" width="48" height="48" alt=""><br>
       <sub>NAS APPLICATION</sub>
-      <h3><a href="https://github.com/cndichengyu/fnos-aria2">fnos-aria2</a></h3>
+      <h3><a href="https://github.com/cndichengyu/fnos-aria2">fnos-&#8203;aria2</a></h3>
       <p>为飞牛 fnOS 封装的 Aria2 下载应用，支持 JSON-RPC 与 x86 / ARM 双架构。</p>
-      <p><code>Shell</code> <code>Aria2</code> <code>fnOS</code> · ★ 0 · ⑂ 0 · 更新于 2026-08-20</p>
+      <p><code>Shell</code> <code>Aria2</code> <code>fnOS</code><br><sub>★ 0 · ⑂ 0 · 更新于 2026-08-20</sub></p>
     </td>
     <td width="50%" valign="top">
       <img src="./assets/go-notes.png" width="48" height="48" alt=""><br>
       <sub>LEARNING NOTES</sub>
-      <h3><a href="https://github.com/cndichengyu/go-learning-tutorial">go-learning-tutorial</a></h3>
+      <h3><a href="https://github.com/cndichengyu/go-learning-tutorial">go-&#8203;learning-&#8203;tutorial</a></h3>
       <p>系统化的 Go 语言学习教程，从基础语法走向并发、Web 开发与项目实践。</p>
-      <p><code>Go</code> <code>Markdown</code> <code>Learning</code> · ★ 0 · ⑂ 0 · 更新于 2026-05-29</p>
+      <p><code>Go</code> <code>Markdown</code> <code>Learning</code><br><sub>★ 0 · ⑂ 0 · 更新于 2026-05-29</sub></p>
     </td>
   </tr>
 </table>
 <!-- PROJECTS:END -->
-
 
 **Python 数据工具** &nbsp; [B 站评论](https://github.com/cndichengyu/GetBiliComments) · [抖音评论](https://github.com/cndichengyu/GetDouyinComments) · [微博评论](https://github.com/cndichengyu/weibo-get)
 
@@ -74,30 +73,26 @@
 
 ## GitHub 动态
 
-<table>
-  <tr>
-    <td width="50%">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=cndichengyu&amp;theme=github_dark">
-        <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=cndichengyu&amp;theme=github">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=cndichengyu&amp;theme=github" alt="cndichengyu 的 GitHub 统计：Stars、提交、Pull Requests 与贡献仓库" width="100%">
-      </picture>
-    </td>
-    <td width="50%">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=cndichengyu&amp;theme=github_dark">
-        <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=cndichengyu&amp;theme=github">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=cndichengyu&amp;theme=github" alt="cndichengyu 的公开仓库语言分布" width="100%">
-      </picture>
-    </td>
-  </tr>
-</table>
+<!-- Live service backed by the GitHub API; provider and GitHub Camo caches may delay updates.
+     Languages count public non-fork repositories by primary language, not code volume or proficiency. -->
+<a href="https://github.com/cndichengyu?tab=overview">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=cndichengyu&amp;theme=github_dark">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=cndichengyu&amp;theme=github">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=cndichengyu&amp;theme=github" alt="cndichengyu 的 GitHub 统计：Stars、提交、Pull Requests 与贡献仓库" width="350">
+  </picture>
+</a>
+<a href="https://github.com/cndichengyu?tab=repositories">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=cndichengyu&amp;theme=github_dark">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=cndichengyu&amp;theme=github">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=cndichengyu&amp;theme=github" alt="cndichengyu 的公开非 Fork 仓库主语言分布，按仓库数量统计" width="350">
+  </picture>
+</a>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-sketch-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/footer-sketch-light.svg">
-  <img src="./assets/footer-sketch-light.svg" alt="手绘风格的代码工作台：笔记本电脑、手机、笔记和铅笔" width="100%">
-</picture>
+<p align="center">
+  <img src="./assets/footer-handdrawn.png" alt="铅笔与淡彩手绘的工作台：电脑、外置硬盘、手机、笔记本和铅笔" width="100%">
+</p>
 
 ---
 
