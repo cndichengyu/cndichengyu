@@ -5,29 +5,22 @@
 </picture>
 
 <p align="center">
-  <a href="#关于我">关于我</a> &nbsp; · &nbsp;
-  <a href="#工具与记录">工具与记录</a> &nbsp; · &nbsp;
+  <a href="#开源工具">开源工具</a> &nbsp; · &nbsp;
   <a href="#技术栈">技术栈</a> &nbsp; · &nbsp;
   <a href="#github-动态">GitHub 动态</a> &nbsp; · &nbsp;
   <a href="mailto:cndichengyu@163.com">联系</a>
 </p>
 
 <p align="center">
-  <b>于繁华处看见世界，于孤独中寻找自己。</b><br>
-  <sub>写一点代码，把想法变成用得上的工具。</sub>
+  <b>于繁华处看见世界，于孤独中寻找自己。</b>
 </p>
 
-## 关于我
-
-macOS / iOS / Linux 开发者，主要使用 Swift、Python 和 Go。<br>
-关注原生工具、网络诊断、自动化脚本与持续学习。
-
-## 工具与记录
-
-[B 站评论](https://github.com/cndichengyu/GetBiliComments) &nbsp; · &nbsp;
-[抖音评论](https://github.com/cndichengyu/GetDouyinComments) &nbsp; · &nbsp;
-[微博评论](https://github.com/cndichengyu/weibo-get) &nbsp; · &nbsp;
-[查看全部仓库](https://github.com/cndichengyu?tab=repositories)
+<p align="center" id="开源工具">
+  <a href="https://github.com/cndichengyu/GetBiliComments">B 站评论</a> &nbsp; · &nbsp;
+  <a href="https://github.com/cndichengyu/GetDouyinComments">抖音评论</a> &nbsp; · &nbsp;
+  <a href="https://github.com/cndichengyu/weibo-get">微博评论</a> &nbsp; · &nbsp;
+  <a href="https://github.com/cndichengyu?tab=repositories">仓库</a>
+</p>
 
 ## 技术栈
 
